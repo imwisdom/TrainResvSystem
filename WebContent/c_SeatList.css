@@ -1,0 +1,109 @@
+@charset "EUC-KR";
+
+span:nth-child(2) {
+	position: absolute;
+	right: 50px;
+}
+
+span:nth-child(2)>input {
+	width: 150px;
+	margin: 3px;
+}
+
+span:nth-child(2)>input:nth-child(1) {
+	background-color: rgb(255, 231, 154);
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	margin: 0px;
+}
+
+#top {
+	padding: 50px;
+}
+
+#main {
+	background-color: rgb(255, 231, 154);
+	height: 600px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+#goPrevPageBtn {
+	margin-left: 50px;
+}
+
+#combo {
+	text-align: right;
+	margin-right: 50px;
+}
+
+select {
+	width: 100px;
+	padding: 2px;
+	text-align-last: center;
+	text-align: center;
+}
+
+.bottom {
+	width: 100%;
+	position: absolute;
+	bottom: 30%;
+}
+
+.bottom div {
+	width: 100%;
+	margin: 3px;
+	text-align: center;
+}
+
+.bottom div:nth-child(2) {
+	display: none;
+}
+
+.bottom div input {
+	width: 150px;
+	margin: 4px;
+	display: inline-block;
+}
+
+.mid {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.mid .door {
+	width: 30px;
+	height: 150px;
+	position: absolute;
+	top: 364px;
+	display: inline-block;
+	background-color: rgb(73, 112, 201);
+}
+
+.mid .table {
+	width: 750px;
+	display: inline-block;
+}
+
+.mid table {
+	margin-bottom: 10px;
+	display: inline-block;
+	background-color: RGB(255, 255, 237);
+}
+
+.mid td {
+	border: 1px solid #444444;
+	padding: 25px;
+}
+#paper {
+	position: absolute;
+    top: 300px;
+    width: 100%;
+    height: 340px;
+    background-color: black;
+	opacity: 0.2; 
+	display:none;
+}

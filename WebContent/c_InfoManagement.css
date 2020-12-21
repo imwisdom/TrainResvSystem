@@ -1,0 +1,100 @@
+@charset "EUC-KR";
+
+
+.myModal {
+    display:none;
+   	position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 400px; 
+    height: 300px;                         
+}
+.modal-content> form {
+    width: 360px; 
+    height: 200px;                         
+}
+.modal-content h3 {
+    margin-top:40px; 
+    margin-bottom:40px;  
+    font-weight: bold;                    
+}
+.modal-content table {
+    margin-left:60px;                     
+}
+.modal-content td:nth-child(1) {
+    padding: 0px 10px 0px 10px;                 
+}
+.modal-content table input:nth-child(1) {
+	height:40px;  
+	width:150px;
+	margin-left:10px;
+	padding-left:10px;                   
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+#modal-buttons > input{
+    background-color:#F2F5A9;
+}
+#modal-buttons> input:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+#modal-buttons, #tablediv{
+    text-align: center;
+}
+        
+span:nth-child(2){ 
+	position:absolute;
+	right:50px;
+}
+span:nth-child(2)>input { width: 100px; margin:3px; padding-left:10px; }
+span:nth-child(2)>input:nth-child(2) {background-color: rgb(255,231,154);}
+h1{ text-align:center; font-weight: bold;}
+#top{ padding:50px; }
+#main{ 
+    background-color: rgb(255,231,154); 
+    height:600px;
+    padding-top:80px; padding-bottom:20px;
+    display = "none";
+}
+#button_div{ text-align:center; margin-top:50px;}
+#id, #pw{ width:236px;}
+#rrNum1, #rrNum2{ width:111px;}
+#form{
+	position:absolute;
+	left:50%;
+	transform: translateX(-50%);
+	padding-top:30px;
+}
+#button_div>input{ 
+	margin:10px; 
+	width:150px; 
+	background-color: f8d83a;
+}
+#main td{ 
+	padding:10px;
+}
+#main td:nth-child(1){ 
+		text-align: right; 
+		padding-right:20px;
+}
+#form input{ padding-left:10px; }	

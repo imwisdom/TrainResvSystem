@@ -1,0 +1,1 @@
+<%=(request.getParameter("pw").equals(request.getParameter("info"))) ? true : false%>
